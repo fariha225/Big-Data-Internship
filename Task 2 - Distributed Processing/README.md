@@ -200,6 +200,29 @@ Through this task, the following Spark concepts were learned:
 This task forms the analytical foundation for Task 3 (Data Visualization).
 
 ---
+## OUTPUT ##
+
+1. Monthly Revenue 
+<img width="627" height="866" alt="Image" src="https://github.com/user-attachments/assets/a535111c-0dc5-4d5a-9f6d-aea7d896948c" />
+
+2. Revenue By Country 
+<img width="686" height="872" alt="Image" src="https://github.com/user-attachments/assets/1f041bf3-e26c-4347-820e-58123bf6694f" />
+
+
+3. Total Revenue 
+<img width="962" height="152" alt="Image" src="https://github.com/user-attachments/assets/392cdb94-7f3a-48d4-b5e2-067f2be25a9b" />
+
+
+4. Top 10 Customers 
+<img width="528" height="447" alt="Image" src="https://github.com/user-attachments/assets/54b0e616-3f0a-4550-82aa-b7d3e3dd8926" />
+
+
+5. Top 10 Products
+<img width="540" height="427" alt="Image" src="https://github.com/user-attachments/assets/d8ea1923-e961-4c7a-bb48-36b66eb23c9a" />
+
+
+6. Transaction By invoices 
+<img width="536" height="806" alt="Image" src="https://github.com/user-attachments/assets/2f0a7206-76ce-48cb-88ff-404536e8b03d" />
 
 
 
