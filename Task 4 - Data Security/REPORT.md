@@ -227,7 +227,19 @@ This security framework ensures that a modern Big Data system is:
 
 The implemented prototype — **data masking**, **role-based access control**, and **audit logging** — closely reflects real-world enterprise security practices used in production-grade big data systems.
 
+
+### OUTPUT ###
+
+1. Manager View ( full view ) 
+<img width="1455" height="353" alt="Image" src="https://github.com/user-attachments/assets/e0c86fa1-088d-49a7-8597-bcb2d9f41800" />
+
+2. Analyst View ( masked view )
 <img width="1464" height="512" alt="Image" src="https://github.com/user-attachments/assets/fd34476d-f9c4-4ce1-b711-8c6d1c904f56" />
+
+3. Audit Log 
+<img width="1593" height="342" alt="Image" src="https://github.com/user-attachments/assets/b6d191d4-1175-44d0-85e8-3bed27f5fbfc" />
+
+
 
 
 
