@@ -2,15 +2,15 @@
 
 *COMPANY* : CODTECH IT SOLUTIONS
 
-*NAME* : 
+*NAME* : Syeda Fariha Fatima 
 
-*INTERN ID* : 
+*INTERN ID* : CT04DR818
 
-*DOMAIN* : 
+*DOMAIN* : Big Data
 
-*DURATION*: 
+*DURATION*: 4 weeks
 
-*MENTOR* : 
+*MENTOR* : Neela Santhosh Kumar 
 
 This task demonstrates two core security controls for a Big Data pipeline:
 1. **Data Masking** (PII minimization)  
@@ -62,6 +62,7 @@ All views are produced as separate CSVs to demonstrate separation of duties.
    ```pip install pandas```
 3. Run the script 
    ```py security_demo_simple.py```
+
 
 
 
