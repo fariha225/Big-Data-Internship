@@ -1,5 +1,17 @@
 # **Big Data Internship – Project Repository**
 
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : 
+
+*INTERN ID* : 
+
+*DOMAIN* : 
+
+*DURATION*: 
+
+*MENTOR* : 
+
 This repository contains all four major tasks completed during the **CodTech Big Data Internship**, covering the entire lifecycle of a modern Big Data project. The work includes *data cleaning, distributed data processing, business intelligence visualization, and data security implementation*. Each task has been structured, documented, and executed using industry-standard tools such as **PySpark** and **Power BI**, ensuring that the workflow resembles real-world big data engineering and analytics pipelines.
 
 The goal of this internship project is to demonstrate practical knowledge in managing, processing, analyzing, visualizing, and securing large datasets while following best practices and maintaining clean, reproducible code. This repository can serve as a reference for future projects and showcases hands-on skills required in data engineering, big data analytics, and BI development roles.
