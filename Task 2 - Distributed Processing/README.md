@@ -1,5 +1,17 @@
 # ⭐ Task 2 – Distributed Data Processing (Using Apache Spark)
 
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : 
+
+*INTERN ID* : 
+
+*DOMAIN* : 
+
+*DURATION*: 
+
+*MENTOR* : 
+
 In this task, Apache Spark was used to analyze a **large cleaned retail dataset** and perform distributed operations such as filtering, grouping, aggregation, and generating business insights at scale.
 
 ---
@@ -188,5 +200,6 @@ Through this task, the following Spark concepts were learned:
 This task forms the analytical foundation for Task 3 (Data Visualization).
 
 ---
+
 
 
