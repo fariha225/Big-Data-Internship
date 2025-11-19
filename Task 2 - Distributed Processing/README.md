@@ -2,15 +2,15 @@
 
 *COMPANY* : CODTECH IT SOLUTIONS
 
-*NAME* : 
+*NAME* : Syeda Fariha Fatima 
 
-*INTERN ID* : 
+*INTERN ID* : CT04DR818
 
-*DOMAIN* : 
+*DOMAIN* : Big Data
 
-*DURATION*: 
+*DURATION*: 4 weeks
 
-*MENTOR* : 
+*MENTOR* : Neela Santhosh Kumar
 
 In this task, Apache Spark was used to analyze a **large cleaned retail dataset** and perform distributed operations such as filtering, grouping, aggregation, and generating business insights at scale.
 
@@ -200,6 +200,7 @@ Through this task, the following Spark concepts were learned:
 This task forms the analytical foundation for Task 3 (Data Visualization).
 
 ---
+
 
 
 
