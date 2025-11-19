@@ -1,0 +1,7 @@
+2025-11-19 18:15:25,147 - actor=system action=load_dataset details=rows=5 file=sample_data/cleaned_retail_sample.csv
+2025-11-19 18:15:25,153 - actor=system action=masking_applied details=CustomerID masked for analyst view
+2025-11-19 18:15:25,154 - actor=system action=manager_view_prepared details=Full access view for manager
+2025-11-19 18:15:25,168 - actor=system action=save_masked_view details=sample_data/demo_masked.csv
+2025-11-19 18:15:25,175 - actor=system action=save_manager_view details=sample_data/demo_manager.csv
+2025-11-19 18:15:25,177 - actor=analyst_user action=request_data details=requested analyst view
+2025-11-19 18:15:25,191 - actor=manager_user action=request_data details=requested manager view

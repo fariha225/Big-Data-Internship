@@ -1,0 +1,6 @@
+InvoiceNo,StockCode,Description,Quantity,InvoiceDate,UnitPrice,CustomerID,Country,TotalPrice
+536398,22112,chocolate hot water bottle,9,12/1/10 10:52,4.95,***48,United Kingdom,44.55
+536406,82486,wood s/3 cabinet ant white finish,4,12/1/10 11:33,6.95,***50,United Kingdom,27.8
+536408,21832,chocolate calculator,12,12/1/10 11:41,1.65,***07,United Kingdom,19.8
+536520,21584,retrospot small tube matches,12,12/1/10 12:43,1.65,***29,United Kingdom,19.8
+536522,22151,place setting white heart,2,12/1/10 12:49,0.42,***12,United Kingdom,0.84
