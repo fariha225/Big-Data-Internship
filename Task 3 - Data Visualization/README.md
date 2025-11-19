@@ -2,15 +2,15 @@
 
 *COMPANY* : CODTECH IT SOLUTIONS
 
-*NAME* : 
+*NAME* : Syeda Fariha Fatima 
 
-*INTERN ID* : 
+*INTERN ID* : CT04DR818
 
-*DOMAIN* : 
+*DOMAIN* : Big Data
 
-*DURATION*: 
+*DURATION*: 4 weeks
 
-*MENTOR* : 
+*MENTOR* : Neela Santhosh Kumar
 
 This task focuses on creating an **interactive BI dashboard** using the processed outputs from Task 2.  
 The goal was to transform distributed Spark metrics into **business-ready visual insights**.
@@ -188,6 +188,7 @@ This task provided experience with:
 Task 3 transforms the technical Spark outputs into **business-level insights**.
 
 ---
+
 
 
 
