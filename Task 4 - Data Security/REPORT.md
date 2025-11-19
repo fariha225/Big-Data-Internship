@@ -1,4 +1,17 @@
 #  Big Data Security & Compliance Framework (GDPR / HIPAA-Aligned)
+
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : Syeda Fariha Fatima 
+
+*INTERN ID* : CT04DR818
+
+*DOMAIN* : Big Data
+
+*DURATION*: 4 weeks
+
+*MENTOR* : Neela Santhosh Kumar
+
 ## 📄 Task 4 – Security & Compliance Report
 
 ---
