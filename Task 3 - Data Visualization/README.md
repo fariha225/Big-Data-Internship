@@ -1,5 +1,17 @@
 # ⭐ Task 3 – Data Visualization (Using Microsoft Power BI)
 
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : 
+
+*INTERN ID* : 
+
+*DOMAIN* : 
+
+*DURATION*: 
+
+*MENTOR* : 
+
 This task focuses on creating an **interactive BI dashboard** using the processed outputs from Task 2.  
 The goal was to transform distributed Spark metrics into **business-ready visual insights**.
 
@@ -176,5 +188,6 @@ This task provided experience with:
 Task 3 transforms the technical Spark outputs into **business-level insights**.
 
 ---
+
 
 
