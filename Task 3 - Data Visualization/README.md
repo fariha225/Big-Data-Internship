@@ -189,6 +189,19 @@ Task 3 transforms the technical Spark outputs into **business-level insights**.
 
 ---
 
+## OUTPUT ## 
+
+<img width="1003" height="573" alt="Image" src="https://github.com/user-attachments/assets/31f24d9e-ea88-4260-92c3-fca05e94b0ca" />
+
+<img width="1014" height="572" alt="Image" src="https://github.com/user-attachments/assets/3f631e4e-9abd-4312-accd-d14665f3ddb1" />
+
+<img width="1020" height="568" alt="Image" src="https://github.com/user-attachments/assets/72a986cb-bd9d-4079-a6f3-edae50841df0" />
+
+<img width="1017" height="570" alt="Image" src="https://github.com/user-attachments/assets/8ecbf1c6-b55e-4fac-ba09-15b9b86fb258" />
+
+<img width="1013" height="570" alt="Image" src="https://github.com/user-attachments/assets/165f977d-147e-48b6-b74a-26ebe16d8af4" />
+
+
 
 
 
