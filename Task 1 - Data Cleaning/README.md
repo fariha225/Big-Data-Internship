@@ -2,15 +2,15 @@
 
 *COMPANY* : CODTECH IT SOLUTIONS
 
-*NAME* : 
+*NAME* : Syeda Fariha Fatima 
 
-*INTERN ID* : 
+*INTERN ID* : CT04DR818
 
-*DOMAIN* : 
+*DOMAIN* : Big Data
 
-*DURATION*: 
+*DURATION*: 4 weeks
 
-*MENTOR* : 
+*MENTOR* : Neela Santhosh Kumar
 
 This task focuses on cleaning a **large retail dataset** using **Apache Spark**, performing operations such as handling missing values, removing invalid records, converting data types, and generating a cleaned dataset for further analysis.
 
@@ -145,4 +145,5 @@ This task helped in understanding:
 
 
 ---
+
 
