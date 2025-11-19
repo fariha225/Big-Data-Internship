@@ -1,5 +1,17 @@
 # ⭐ Task 4 – Big Data Security (Focused: Masking + Two-Role Access)
 
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : 
+
+*INTERN ID* : 
+
+*DOMAIN* : 
+
+*DURATION*: 
+
+*MENTOR* : 
+
 This task demonstrates two core security controls for a Big Data pipeline:
 1. **Data Masking** (PII minimization)  
 2. **Two-role access simulation** (Analyst vs Manager)
@@ -50,5 +62,6 @@ All views are produced as separate CSVs to demonstrate separation of duties.
    ```pip install pandas```
 3. Run the script 
    ```py security_demo_simple.py```
+
 
 
