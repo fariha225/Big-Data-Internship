@@ -2,15 +2,15 @@
 
 *COMPANY* : CODTECH IT SOLUTIONS
 
-*NAME* : 
+*NAME* : Syeda Fariha Fatima 
 
-*INTERN ID* : 
+*INTERN ID* : CT04DR818
 
-*DOMAIN* : 
+*DOMAIN* : Big Data
 
-*DURATION*: 
+*DURATION*: 4 weeks 
 
-*MENTOR* : 
+*MENTOR* : Neela Santhosh Kumar 
 
 This repository contains all four major tasks completed during the **CodTech Big Data Internship**, covering the entire lifecycle of a modern Big Data project. The work includes *data cleaning, distributed data processing, business intelligence visualization, and data security implementation*. Each task has been structured, documented, and executed using industry-standard tools such as **PySpark** and **Power BI**, ensuring that the workflow resembles real-world big data engineering and analytics pipelines.
 
