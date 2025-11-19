@@ -146,4 +146,9 @@ This task helped in understanding:
 
 ---
 
+## OUTPUT ## 
+- Cleaned Dataset
+<img width="900" height="799" alt="Image" src="https://github.com/user-attachments/assets/a2b9dbeb-70a5-44ed-b4e4-4555c7a71323" />
+
+
 
