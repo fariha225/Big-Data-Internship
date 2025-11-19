@@ -1,143 +1,135 @@
-Task 1 – Big Data Cleaning (Using PySpark)
+# ⭐ Task 1 – Big Data Cleaning (Using PySpark)
 
-This task focuses on loading a large dataset using Apache Spark and performing essential data cleaning operations such as handling missing values, removing invalid records, converting data types, and generating a cleaned output file.
+This task focuses on cleaning a **large retail dataset** using **Apache Spark**, performing operations such as handling missing values, removing invalid records, converting data types, and generating a cleaned dataset for further analysis.
 
-✅ 1. Objective of This Task
+---
+
+## ✅ 1. Objective of This Task
 
 The goal of Task 1 was to:
-⦁	Load a large retail dataset using Apache Spark
-⦁	Perform manual data handling & cleaning
-⦁	Remove duplicates
-⦁	Filter invalid/negative records
-⦁	Clean text columns
-⦁	Add new calculated fields
-⦁	Save the cleaned output as a new file
 
-This task demonstrates basic data engineering skills using Spark for big-data processing.
+- Load a large dataset using **Apache Spark**
+- Perform **manual data handling & cleaning**
+- Remove **duplicates**
+- Filter invalid or negative records
+- Clean text fields
+- Add **new calculated columns**
+- Save the **final cleaned dataset**
 
+This task demonstrates core **data engineering skills** for Big Data processing.
 
-📂 2. Dataset Used
+---
 
-Dataset Name: Online Retail Dataset (UCI Repository)
-File: OnlineRetail.csv
+## 📂 2. Dataset Used
 
+**Dataset:** Online Retail Dataset (UCI Repository)  
+**File:** `OnlineRetail.csv`
 
-Contains customer transactions from a UK-based retailer
+Contains customer transaction records from a UK-based retailer.
 
-Rows: 541,909
-Columns: 8
+| Property | Value |
+|---------|--------|
+| **Rows** | 541,909 |
+| **Columns** | 8 |
+| **Includes** | InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country |
 
+---
 
-Includes details like:
+## ⚙️ 3. Tools & Technologies
 
-Invoice number
-Product code
-Description
-Quantity
-Invoice date
-Price
-Customer ID
-Country
+- **Python 3.11**
+- **Apache PySpark**
+- **VS Code** (to run scripts)
 
+---
 
-⚙️ 3. Tools & Technologies
+## 🔍 4. Data Cleaning Steps Performed
 
-Python 3.11
-Apache PySpark
-VS Code for running scripts
+Below is the complete cleaning pipeline implemented in PySpark:
 
+### **Step 1 — Start Spark Session**
+- Initialize Spark engine with memory configs.
 
-🔍 4. Data Cleaning Steps Performed
+### **Step 2 — Load Raw CSV**
+- Load CSV with header  
+- Infer schema  
+- Print dataset size + schema  
 
-Below is the exact cleaning pipeline implemented in PySpark.
+### **Step 3 — Remove Cancellation Invoices**
+- Invoices starting with **“C”** indicate returns → removed.
 
-⦁	Step 1 — Start Spark Session
+### **Step 4 — Remove Duplicate Rows**
+- Ensures correctness of further analysis.
 
-   Initialize Spark engine with required memory.
+### **Step 5 — Handle Missing Customer IDs**
+- All rows with **CustomerID = NULL** removed.
 
-⦁	Step 2 — Load Raw CSV
+### **Step 6 — Remove Invalid Quantity & UnitPrice**
+Removed rows where:
+- Quantity **≤ 0**
+- UnitPrice **≤ 0**
 
-   Read file with header
-   Infer schema automatically
-   Print row/column count + schema
+### **Step 7 — Clean Description Field**
+- Lowercased text  
+- Trimmed whitespace
 
-⦁	Step 3 — Remove Cancellation Invoices
+### **Step 8 — Convert Invoice Date to Timestamp**
+- Added new column: `InvoiceDateTS`
 
-   Invoices starting with “C” indicate returns.
-   These were removed.
+### **Step 9 — Add TotalPrice Column**
+- TotalPrice = Quantity × UnitPrice
 
-⦁	Step 4 — Remove Duplicate Rows
+### **Step 10 — Save Final Cleaned Output**
+- Output saved as: **cleaned_retail.csv**
 
-   Ensures cleaner and more accurate analysis.
+---
 
-⦁	Step 5 — Handle Missing Customer IDs
+## 📊 5. Before vs After Cleaning
 
-   Rows where CustomerID was null were removed.
+| Metric | Before Cleaning | After Cleaning |
+|--------|------------------|----------------|
+| **Rows** | 541,909 | 392,692 |
+| **Columns** | 8 | 10 (added InvoiceDateTS & TotalPrice) |
+| **Missing Customer IDs** | 135,080 | Removed |
+| **Negative/Zero Quantity** | 10,624 | Removed |
+| **Negative/Zero UnitPrice** | 2,517 | Removed |
+| **Cancellation Invoices** | 9,288 | Removed |
 
-⦁	Step 6 — Remove Invalid Quantity & Unit Price
+---
 
-   Removed rows where:
+## 🧾 6. Final Output
 
-   Quantity ≤ 0
-   Unit price ≤ 0
+The cleaned dataset generated:
 
-⦁	Step 7 — Clean Product Description
+✔ `cleaned_retail.csv`  
+(used in Task 2 – Distributed Data Processing)
 
-   Converted to lowercase
+---
 
-   Trimmed extra spaces
+## 🧪 7. How to Run the Script
 
-⦁	Step 9 — Add TotalPrice Column
+To run the cleaning script:
 
-   TotalPrice = Quantity × UnitPrice
-
-⦁	Step 10 — Save Cleaned Data
-
-   Output saved as:
-   cleaned_retail.csv
-
-
-📊 5. Before vs After Cleaning
-Metric	                 Before Cleaning     After Cleaning
-Rows	                   541,909   	         392,692
-Columns	                 8	                 10 (added InvoiceDateTS & TotalPrice)
-Missing Customer IDs	   135,080	           Removed
-Negative/Zero Quantity	 10,624	             Removed
-Negative/Zero UnitPrice	 2,517	             Removed
-Cancellation Invoices	   9,288	             Removed
-
-
-🧾 6. Final Output
-
-The cleaned dataset is exported as:
-
-✔ cleaned_retail.csv
-
-This file is used in Task 2 (Distributed Processing).
-
-
-
-
-🧪 7. How to Run the Script
-
-Open terminal and run:
-
-py task1_cleaning.py
-
+```py task1_cleaning.py ```
 
 Make sure the following files are in the same folder:
 
 task1_cleaning.py
 OnlineRetail.csv
 
+## 📘 8. Learning Outcomes
+
+This task helped in understanding:
+
+- Loading & processing large datasets using PySpark
+
+- Handling missing values & invalid records
+
+- Filtering, deduplication, and text cleaning
+
+- Adding calculated columns
+
+- Exporting cleaned datasets for further analysis
 
 
-📘 8. Learning Outcomes
-
-⦁	How to process large datasets using Spark
-⦁	How to apply filtering, deduplication, and missing-value handling
-⦁	How to clean text fields
-⦁	How to add calculated columns
-⦁	How to export cleaned output
-
-This task is foundational for the upcoming analysis and visualizations.
+---
