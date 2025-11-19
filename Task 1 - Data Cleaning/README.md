@@ -1,5 +1,17 @@
 # ⭐ Task 1 – Big Data Cleaning (Using PySpark)
 
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : 
+
+*INTERN ID* : 
+
+*DOMAIN* : 
+
+*DURATION*: 
+
+*MENTOR* : 
+
 This task focuses on cleaning a **large retail dataset** using **Apache Spark**, performing operations such as handling missing values, removing invalid records, converting data types, and generating a cleaned dataset for further analysis.
 
 ---
@@ -133,3 +145,4 @@ This task helped in understanding:
 
 
 ---
+
